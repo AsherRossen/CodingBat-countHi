@@ -1,0 +1,11 @@
+public int countHi(String str) {
+  int i = 0;
+  while (str.contains("hi")){
+    if (str.contains("hi")){
+      str=str.substring(str.indexOf("hi")+2);
+      i++;
+    }
+    
+  }
+  return i;
+}
